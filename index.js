@@ -69,6 +69,7 @@ class Dot extends React.Component {
       {
         toValue: 1,
         duration: this.props.animationDuration,
+        useNativeDriver: true
       }
     ).start()
   }
@@ -79,6 +80,7 @@ class Dot extends React.Component {
       {
         toValue: this.props.animationScale,
         duration: this.props.animationDuration,
+        useNativeDriver: true
       }
     ).start()
   }
